@@ -1,20 +1,22 @@
-# 
+# gabi
+
+cuz
 
   ## Description
   
-  
+  no
   
   ## Questions 
   
+  My motivation: idk
   
-  
-  
+  My reason for creating this: idk
   
   ### Contact me
   
-  - [My Email](mailto:)
+  - [My Email](mailto:gflatch@att.net)
   
-  - [My GitHub](https://)
+  - [My GitHub](https://github.com)
   
   ## Table of Contents
   
@@ -29,21 +31,10 @@
   
   ## Usage
   
+  no
   
   ![alt text](assets/images/'placeImageHere'.png)
 
-  ## Credits
-  
-  - [](https://)
-
- - [](https://)
-
- - [](https://)
-
- - [](https://)
-
-
-  
   ## License
   
   undefined
@@ -54,9 +45,11 @@
   
   ## Contributing
   
-  undefined
+  - [gabi](https://github.com)
+
+
   
   ## Tests
   
-  
+  na
   

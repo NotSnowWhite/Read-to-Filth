@@ -19,13 +19,13 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'My Email address is:'
+        message: 'What is your email address?'
     },
 
     {
         type: 'input',
         name: 'github',
-        message: 'My GitHub is'
+        message: 'What is your GitHub?'
     }
 ];
 
@@ -52,7 +52,7 @@ function addMore(data) {
                 type: 'confirm',
                 name: 'add',
                 message: 'Add more?',
-                default: true
+                default: false
             },
         ])
             .then((addition) => {
@@ -88,7 +88,13 @@ function init() {
         {
             type: 'input',
             name: 'title',
-            message: 'Give your project a title:'
+            message: 'Give your project a title:',
+        },
+
+        {
+            type: 'input',
+            name: 'purpose',
+            message: 'What is the purpose of this project?'
         },
 
         {

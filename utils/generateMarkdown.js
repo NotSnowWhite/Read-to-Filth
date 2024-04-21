@@ -18,15 +18,17 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${data.purpose}
+
   ## Description
   
   ${data.description}
   
   ## Questions 
   
-  ${data.motivation}
+  My motivation: ${data.motivation}
   
-  ${data.reason}
+  My reason for creating this: ${data.reason}
   
   ### Contact me
   
@@ -43,17 +45,14 @@ function generateMarkdown(data) {
   
   ## Installation
   
-  ${data.installation}
+  ${data.install}
   
   ## Usage
   
   ${data.usage}
+
   ![alt text](assets/images/'placeImageHere'.png)
 
-  ## Credits
-  
-  ${data.credits}
-  
   ## License
   
   ${data.license}
@@ -64,7 +63,7 @@ function generateMarkdown(data) {
   
   ## Contributing
   
-  ${data.contributing}
+  ${data.credits}
   
   ## Tests
   
