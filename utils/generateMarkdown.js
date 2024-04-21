@@ -13,7 +13,17 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (!license) {
     return '';
+  } else if (license === 'GNU AGPLv3') {
+    return `[Link to ${license}](https://choosealicense.com/licenses/agpl-3.0/)`
+
+  } else if (license === 'The MIT License') {
+    return `[Link to ${license}](https://choosealicense.com/licenses/mit/)`
+
+  } else if (license === 'The Unlicense') {
+    return `[Link to ${license}](https://choosealicense.com/licenses/unlicense/)`
+    
   }
+
 }
 
 // TODO: Create a function that returns the license section of README
