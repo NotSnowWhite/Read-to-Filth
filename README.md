@@ -33,7 +33,10 @@
   ![alt text](assets/images/'placeImageHere'.png)
 
   ## Credits
-  - [edwin](https://google.com)
+  - [gabi](https://google.com)
+
+- [edwin](https://github.com)
+
 
   
   ## License

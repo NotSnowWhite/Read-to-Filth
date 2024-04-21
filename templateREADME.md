@@ -43,6 +43,7 @@ ${license}
 ## Badges
 
 ${badges}
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 ## Contributing
 

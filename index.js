@@ -63,7 +63,7 @@ function addMore(data) {
                 }
                 // otherwise make data.credits = credits info and create the readme with the md template
                 else {
-                    data.credits = credits.map(credit => (`- [${credit.name}](https://${credit.link})\n`));
+                    data.credits = credits.map(credit => (`- [${credit.name}](https://${credit.link})\n\n`)).join('');
                     writeToFile('README.md', generateMD(data));
                 };
 
