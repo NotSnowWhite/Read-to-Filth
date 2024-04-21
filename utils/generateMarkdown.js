@@ -24,16 +24,15 @@ function generateMarkdown(data) {
   
   ## Questions 
   
-  ${data.questions.motivation}
+  ${data.motivation}
   
-  $data.{questions.reason}
+  ${data.reason}
   
   ### Contact me
   
-  - ${data.questions.email}
+  - [My Email](mailto:${data.email})
   
-  - ${data.questions.github}
-  
+  - [My GitHub](https://${data.github})
   
   ## Table of Contents
   

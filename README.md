@@ -1,2 +1,53 @@
-# Read-to-Filth
-The purpose of this repo is to store a README generator to easily create README.md for a project.
+# 
+
+  ## Description
+  
+  
+  
+  ## Questions 
+  
+  
+  
+  
+  
+  ### Contact me
+  
+  - [My email](mailto:gflath@att.net)
+  
+  - [My GitHub](https://github.com/notsnowwhite)
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  
+  undefined
+  
+  ## Usage
+  
+  
+  
+  ## Credits
+  
+  
+  
+  ## License
+  
+  undefined
+  
+  ## Badges
+  
+  undefined
+  
+  ## Contributing
+  
+  undefined
+  
+  ## Tests
+  
+  
+  

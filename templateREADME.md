@@ -12,9 +12,9 @@ ${questions.reason}
 
 ### Contact me
 
-- ${questions.email}
+- [My email](mailto:${questions.email})
 
-- ${questions.github}
+- [My GitHub](https://${questions.github})
 
 
 ## Table of Contents
