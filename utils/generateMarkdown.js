@@ -31,12 +31,14 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (!license) {
     return '';
+  } else {
+    return `This project utilizes the ${license} and can be found at ${renderLicenseLink(license)}`
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title}         ${renderLicenseBadge(data.license)}  
 
 ${data.purpose}
 
@@ -75,11 +77,7 @@ ${data.purpose}
 
   ## License
   
-  ${data.license}
-  
-  ## Badges
-  
-  ${data.badges}
+  ${renderLicenseSection(data.license)}
   
   ## Contributing
   
