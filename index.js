@@ -63,14 +63,15 @@ function addMore(data) {
                 }
                 // otherwise make data.credits = credits info and create the readme with the md template
                 else {
-                    data.credits = credits.map(credit => (`- [${credit.name}](https://${credit.link})\n\n`)).join('');
+                    // \n adds new lines after the entry and .join('') joins the entire entry as a string and starts the next entry after it on the last new line
+                    data.credits = credits.map(credit => (`- [${credit.name}](https://${credit.link})\n\n`)).join(' ');
                     writeToFile('README.md', generateMD(data));
                 };
 
 
             })
     }
-    // call the prompts for credits
+    // call the prompts for credits directly inside the addmore() to run when addmore() does
     promptCredits();
 }
 // TODO: Create a function to write README file
@@ -119,7 +120,7 @@ function init() {
         ...questions
 
     ])
-        // takes data from prompt and writes a readme with the template and data from user input
+        // takes data from init() prompts and then calls addMore() to get credits info and writes a readme with the template and data from user input
         .then((data) => {
             addMore(data);
         })

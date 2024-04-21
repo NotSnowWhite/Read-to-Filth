@@ -51,6 +51,7 @@ function generateMarkdown(data) {
   ![alt text](assets/images/'placeImageHere'.png)
 
   ## Credits
+  
   ${data.credits}
   
   ## License

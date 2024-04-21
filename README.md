@@ -33,9 +33,14 @@
   ![alt text](assets/images/'placeImageHere'.png)
 
   ## Credits
-  - [gabi](https://google.com)
+  
+  - [](https://)
 
-- [edwin](https://github.com)
+ - [](https://)
+
+ - [](https://)
+
+ - [](https://)
 
 
   
