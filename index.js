@@ -4,7 +4,7 @@ const generateMD = require('./utils/generateMarkdown');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
-    {   
+    {
         type: 'input',
         name: 'motivation',
         message: 'What was your motivation?'
@@ -25,20 +25,67 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'My GitHub is https://'
+        message: 'My GitHub is'
     }
 ];
 
+// function to add more collaborators to credits
+function addMore(data) {
+    // credits is an empty array
+    const credits = []
+
+    // function to create prompts and push data to credits array
+    function promptCredits() {
+
+        inquirer.prompt([
+            {
+                type: 'input',
+                name: 'name',
+                message: 'Collaborator or Resource Name:'
+            },
+            {
+                type: 'input',
+                name: 'link',
+                message: 'Link:'
+            },
+            {
+                type: 'confirm',
+                name: 'add',
+                message: 'Add more?',
+                default: true
+            },
+        ])
+            .then((addition) => {
+                credits.push({ name: addition.name, link: addition.link });
+                // if user chooses to add more collabs, recall the function to set prompts
+                if (addition.add) {
+                    promptCredits(data);
+                }
+                // otherwise make data.credits = credits info and create the readme with the md template
+                else {
+                    data.credits = credits;
+                    data.credits.forEach((credit) => {
+                        data.credits += `- [${credit.name}](${credit.link})\n`
+                    });
+                    writeToFile('README.md', generateMD(data));
+                };
+
+
+            })
+    }
+    // call the prompts for credits
+    promptCredits();
+}
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-        fs.writeFile(fileName, data, (err) =>
-            err ? console.error(err) : console.log('Successful README file created!')
-        )
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error(err) : console.log('Successful README file created!')
+    )
 }
 
 // TODO: Create a function to initialize app
-function init() { 
+function init() {
     inquirer.prompt([
         {
             type: 'input',
@@ -46,7 +93,7 @@ function init() {
             message: 'Give your project a title:'
         },
 
-        {   
+        {
             type: 'input',
             name: 'description',
             message: 'Provide a short description of your project:'
@@ -57,19 +104,15 @@ function init() {
             name: 'install',
             message: 'Provide detailed installation instructions describing how to run the application:'
         },
-        
+
         {
             type: 'input',
             name: 'usage',
             message: 'Provide instructions and example images for use:'
         },
 
-        {
-            type: 'input',
-            name: 'credits',
-            message: 'List any collaborators or resources used and their links:'
-        },
         // license and badges go between here
+
         {
             type: 'input',
             name: 'tests',
@@ -79,11 +122,12 @@ function init() {
         ...questions
 
     ])
-    // takes data from prompt and writes a readme with the template and data from user input
-    .then((data) => {
-        writeToFile('README.md', generateMD(data));
-    })
+        // takes data from prompt and writes a readme with the template and data from user input
+        .then((data) => {
+            addMore(data);
+        })
 }
 
+
 // Function call to initialize app
-init();
+init()

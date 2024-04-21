@@ -12,9 +12,9 @@
   
   ### Contact me
   
-  - [My email](mailto:gflath@att.net)
+  - [My Email](mailto:)
   
-  - [My GitHub](https://github.com/notsnowwhite)
+  - [My GitHub](https://)
   
   ## Table of Contents
   
@@ -30,10 +30,11 @@
   ## Usage
   
   
-  
+  ![alt text](assets/images/'placeImageHere'.png)
+
   ## Credits
-  
-  
+  [object Object]- [hey](he)
+
   
   ## License
   

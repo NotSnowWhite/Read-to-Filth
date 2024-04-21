@@ -48,9 +48,9 @@ function generateMarkdown(data) {
   ## Usage
   
   ${data.usage}
-  
+  ![alt text](assets/images/'placeImageHere'.png)
+
   ## Credits
-  
   ${data.credits}
   
   ## License
