@@ -13,13 +13,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (!license) {
     return '';
-  } else if (license === 'GNU AGPLv3') {
+  } else if (license === 'GNU_AGPLv3') {
     return `[Link to ${license}](https://choosealicense.com/licenses/agpl-3.0/)`
 
-  } else if (license === 'The MIT License') {
+  } else if (license === 'The_MIT_License') {
     return `[Link to ${license}](https://choosealicense.com/licenses/mit/)`
 
-  } else if (license === 'The Unlicense') {
+  } else if (license === 'The_Unlicense') {
     return `[Link to ${license}](https://choosealicense.com/licenses/unlicense/)`
     
   }

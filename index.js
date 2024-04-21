@@ -119,9 +119,9 @@ function init() {
             type: 'list',
             name: 'license',
             message: 'Pick a license:',
-            choices: ['GNU AGPLv3', 'The MIT License', 'The Unlicense']
+            choices: ['GNU_AGPLv3', 'The_MIT_License', 'The_Unlicense']
         },
-        
+
         // badges go between here
 
         {
