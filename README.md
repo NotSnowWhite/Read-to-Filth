@@ -32,7 +32,7 @@ The purpose of this project is to create a readme generator to help simplify my 
   
 ## Usage
 
-  ![video](./assets/images/Untitled_%20Apr%2021,%202024%202_45%20PM.webm/)
+  ![video](./assets/images/Untitled_%20Apr%2021,%202024%202_45%20PM.gif)
 
   ## License
   
