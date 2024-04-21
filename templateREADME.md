@@ -1,51 +1,52 @@
-# Hello         ![License: The_MIT_License](https://img.shields.io/badge/License-The_MIT_License-lavender)  
+# hey         ![License: GNU_AGPLv3](https://img.shields.io/badge/License-GNU_AGPLv3-lavender)  
 
-To be great
 
-  ## Description
+
+## Description
   
-  I'm pretty great
   
-  ## Questions 
   
-  My motivation: To do something great
+## Questions 
   
-  My reason for creating this: Because 
+  My motivation: 
   
-  ### Contact me
+  My reason for creating this: 
   
-  - [My Email](mailto:gflatch@att.net)
+### Contact me
   
-  - [My GitHub](https://github.com/notsnowwhite)
+  - [My Email](mailto:)
   
-  ## Table of Contents
+  - [My GitHub](https://)
+  
+## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
+  - [Credits](#credits)
   - [License](#license)
   
-  ## Installation
   
-  Click me
+## Installation
   
-  ## Usage
+  
+  
+## Usage
   
   
 
   ![alt text](assets/images/'placeImageHere'.png)
 
-  ## License
+## License
   
-  This project utilizes the The_MIT_License and can be found at [Link to The_MIT_License](https://choosealicense.com/licenses/mit/)
+  This project utilizes the GNU_AGPLv3 and can be found at [Link to GNU_AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
   
-  ## Contributing
+## Contributing
   
-  - [google](https://google.com)
+  - [](https://)
 
 
   
-  ## Tests
+## Tests
   
   
   

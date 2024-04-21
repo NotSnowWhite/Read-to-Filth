@@ -42,48 +42,49 @@ function generateMarkdown(data) {
 
 ${data.purpose}
 
-  ## Description
+## Description
   
   ${data.description}
   
-  ## Questions 
+## Questions 
   
   My motivation: ${data.motivation}
   
   My reason for creating this: ${data.reason}
   
-  ### Contact me
+### Contact me
   
   - [My Email](mailto:${data.email})
   
   - [My GitHub](https://${data.github})
   
-  ## Table of Contents
+## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
   
-  ## Installation
+  
+## Installation
   
   ${data.install}
   
-  ## Usage
+## Usage
   
   ${data.usage}
 
   ![alt text](assets/images/'placeImageHere'.png)
 
-  ## License
+## License
   
   ${renderLicenseSection(data.license)}
   
-  ## Contributing
+## Contributing
   
   ${data.credits}
   
-  ## Tests
+## Tests
   
   ${data.tests}
   
