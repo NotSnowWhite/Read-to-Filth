@@ -115,7 +115,14 @@ function init() {
             message: 'Provide instructions and example images for use:'
         },
 
-        // license and badges go between here
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Pick a license:',
+            choices: ['GNU AGPLv3', 'The MIT License', 'The Unlicense']
+        },
+        
+        // badges go between here
 
         {
             type: 'input',
