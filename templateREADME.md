@@ -1,54 +1,55 @@
-# ${title}
-
-## Description
-
-${description}
-
-## Questions 
-
-${questions.motivation}
-
-${questions.reason}
-
-### Contact me
-
-- [My email](mailto:${questions.email})
-
-- [My GitHub](https://${questions.github})
+# 
 
 
-## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+  ## Description
+  
+  
+  
+  ## Questions 
+  
+  My motivation: 
+  
+  My reason for creating this: 
+  
+  ### Contact me
+  
+  - [My Email](mailto:)
+  
+  - [My GitHub](https://)
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  
+  
+  
+  ## Usage
+  
+  
 
-## Installation
+  ![alt text](assets/images/'placeImageHere'.png)
 
-${installation}
+  ## License
+  
+  undefined
+  
+  ## Badges
+  
+  undefined
+  
+  ## Contributing
+  
+  - [](https://)
 
-## Usage
 
-${usage}
-
-## Credits
-
-${credits}
-
-## License
-
-${license}
-
-## Badges
-
-${badges}
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-## Contributing
-
-${contributing}
-
-## Tests
-
-${tests}
+  
+  ## Tests
+  
+  
+  

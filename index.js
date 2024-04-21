@@ -65,7 +65,7 @@ function addMore(data) {
                 else {
                     // \n adds new lines after the entry and .join('') joins the entire entry as a string and starts the next entry after it on the last new line
                     data.credits = credits.map(credit => (`- [${credit.name}](https://${credit.link})\n\n`)).join(' ');
-                    writeToFile('README.md', generateMD(data));
+                    writeToFile('templateREADME.md', generateMD(data));
                 };
 
 

@@ -1,22 +1,22 @@
-# gabi
+# edwin
 
-cuz
+because
 
   ## Description
   
-  no
+  edwin
   
   ## Questions 
   
-  My motivation: idk
+  My motivation: no
   
-  My reason for creating this: idk
+  My reason for creating this: no
   
   ### Contact me
   
   - [My Email](mailto:gflatch@att.net)
   
-  - [My GitHub](https://github.com)
+  - [My GitHub](https://github.com/notsnowwhite)
   
   ## Table of Contents
   
@@ -27,12 +27,12 @@ cuz
   
   ## Installation
   
-  undefined
+  no
   
   ## Usage
   
   no
-  
+
   ![alt text](assets/images/'placeImageHere'.png)
 
   ## License
@@ -51,5 +51,5 @@ cuz
   
   ## Tests
   
-  na
+  no
   
