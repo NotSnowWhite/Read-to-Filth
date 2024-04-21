@@ -2,17 +2,43 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {   
+        type: 'input',
+        name: 'motivation',
+        message: 'What was your motivation?'
+    },
+
+    {
+        type: 'input',
+        name: 'reason',
+        message: 'Why did you build this project?'
+    },
+
+    {
+        type: 'input',
+        name: 'solves',
+        message: 'What problem does it solve?'
+    },
+
+    {
+        type: 'input',
+        name: 'learn',
+        message: 'What did you learn?'
+    }
+];
 
 // TODO: Create a function to write README file
-function writeToFile(data) {
-    fs.writeFile('README.md', data, (err) =>
-        err ? console.error(err) : console.log('Successful README file created!')
-    )
+function writeToFile(fileName, data) {
+    let fileName = 'README.md';
+    data =
+        fs.writeFile(fileName, data, (err) =>
+            err ? console.error(err) : console.log('Successful README file created!')
+        )
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() { }
 
 // Function call to initialize app
 init();
