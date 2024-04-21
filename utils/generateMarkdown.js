@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (!license) {
-    return [];
+    return '';
   }
 }
 
@@ -18,6 +18,58 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  
+  ${data.description}
+  
+  ## Questions 
+  
+  ${data.questions.motivation}
+  
+  $data.{questions.reason}
+  
+  ### Contact me
+  
+  - ${data.questions.email}
+  
+  - ${data.questions.github}
+  
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  
+  ## Installation
+  
+  ${data.installation}
+  
+  ## Usage
+  
+  ${data.usage}
+  
+  ## Credits
+  
+  ${data.credits}
+  
+  ## License
+  
+  ${data.license}
+  
+  ## Badges
+  
+  ${data.badges}
+  
+  ## Contributing
+  
+  ${data.contributing}
+  
+  ## Tests
+  
+  ${data.tests}
+  
 `;
 }
 

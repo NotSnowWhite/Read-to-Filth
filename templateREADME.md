@@ -1,12 +1,21 @@
-# <Your-Project-Title>
+# ${title}
 
 ## Description
 
 ${description}
 
-### Questions 
+## Questions 
 
-${questions}
+${questions.motivation}
+
+${questions.reason}
+
+### Contact me
+
+- ${questions.email}
+
+- ${questions.github}
+
 
 ## Table of Contents
 
