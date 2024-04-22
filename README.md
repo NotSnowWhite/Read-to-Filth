@@ -28,7 +28,7 @@ The purpose of this project is to create a readme generator to help simplify my 
   
 ## Installation
   
-  A user must first locate the file folder for Read-to-Filth in the command line. Once found, the user will type in 'node index.js' to access the readme generator's function and proceed to answer the prompts given. Once done, click enter a final time and be greeted with text stating success. The user can then check in the folder and see their newly created README!
+  A user must first locate the file folder for Read-to-Filth in the command line. Once found, the user will type in 'npm i' to install the packages in the package.json. After installing, the user will type into the command line 'node index.js' to access the readme generator's function and proceed to answer the prompts given. Once done, click enter a final time and be greeted with text stating success. The user can then check in the folder and see their newly created README!
   
 ## Usage
 
