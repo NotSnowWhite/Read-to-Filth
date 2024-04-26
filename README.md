@@ -4,7 +4,7 @@ The purpose of this project is to create a readme generator to help simplify my 
 
 ## Description
   
-  Created using node, npm was initialized and the required packages were installed. A user will need to open the file and call on node and the index js to access the README generator. Once called upon in the command line, the user will see a request for Title where they can print the title of their project and click enter. After entering, the user will be prompted with more questions - some of which requesting links. Once the user reaches the contributing section, they will be prompted to enter more than one contributor is they desire. When they have completed all the prompts, the user will be greated with text stating the readme was created and a template readme will be created under the files.
+  Created using node, npm was initialized and the required packages were installed. A user will need to open the file and call on node and the index js to access the README generator. Once called upon in the command line, the user will see a request for Title where they can print the title of their project and click enter. After entering, the user will be prompted with more questions - some of which requesting links. Once the user reaches the contributing section, they will be prompted to enter more than one contributor is they desire. When they have completed all the prompts, the user will be greeted with text stating the readme was created and a template readme will be created under the files.
   
 ## Questions 
   
