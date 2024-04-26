@@ -22,7 +22,7 @@ The purpose of this project is to create a readme generator to help simplify my 
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
   
   
@@ -33,6 +33,7 @@ The purpose of this project is to create a readme generator to help simplify my 
 ## Usage
 
   ![video](./assets/images/Untitled_%20Apr%2021,%202024%202_45%20PM.gif)
+  - [Link to walkthrough](https://drive.google.com/file/d/1ZjST9x7kZI3FpwnaY7A_tMY5xzVuh1gz/view)
 
   ## License
   
