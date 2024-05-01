@@ -62,7 +62,7 @@ ${data.purpose}
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
   
   
